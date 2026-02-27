@@ -1,0 +1,40 @@
+h1 {
+  color: red;
+  font-style: italic;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform:capitalize;
+  text-align:center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+p {
+  color: rgb(230, 116, 17);
+  font-style: oblique;
+  font-family:'Times New Roman', Times, serif;
+  text-align:center;
+}
+h2 {
+  color: rgb(54, 169, 227);
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-transform:capitalize;
+  text-align:center;
+  opacity: 0.7
+}
+img{
+  transition: 1.5s;
+}
+input:checked ~ img{
+  opacity: 0;
+}
+h2:active{
+  color: red;
+}
+.nhandi:link{
+  color: red;
+}
+.nhandi:visited{
+  color: brown;
+}
